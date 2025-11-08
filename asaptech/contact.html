@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Service | ASAP Tech</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">ASAP <span>Tech</span></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html" class="active">Book Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="booking">
+    <div class="container">
+      <h2>Book a Website Project</h2>
+      <p>Fill the form below to book your project with ASAP Tech.</p>
+
+      <form id="bookingForm" class="booking-form">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email Address" required>
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+
+        <select id="service" required>
+          <option value="">Select Service</option>
+          <option value="Web Design">Web Design</option>
+          <option value="Web Development">Web Development</option>
+          <option value="Website Maintenance">Website Maintenance</option>
+        </select>
+
+        <input type="date" id="date" required>
+        <textarea id="message" placeholder="Project details..." rows="4"></textarea>
+
+        <button type="submit" class="btn">Book Now</button>
+      </form>
+
+      <p id="successMessage" style="display:none; color:green; margin-top:15px;">
+        ✅ Booking received! We'll contact you soon.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 ASAP Tech | Designed by Ofomola Kenneth</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

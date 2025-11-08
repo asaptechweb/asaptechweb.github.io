@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 15px 0;
+}
+
+.logo span {
+  color: #00bfff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(to right, #0a0a0a, #002244);
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background: #00bfff;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.services-preview {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.booking {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.booking-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.booking-form input,
+.booking-form select,
+.booking-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.booking-form .btn {
+  background: #00bfff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.booking-form .btn:hover {
+  background: #008ecc;
+}
+
+
+.about, .services {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-highlights, .service-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.highlight, .service {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
